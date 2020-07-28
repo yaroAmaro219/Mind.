@@ -1,0 +1,35 @@
+.nav-container {
+  background-color: #606782;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  height: 52px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  margin: 18px;
+  padding: 9px;
+}
+
+.nav-link:hover {
+  color: rgb(212, 212, 212);
+}
+
+.title {
+  color: white;
+  font-style: italic;
+  padding-right: 36px;
+}
+
+.home {
+  padding-top: 9px;
+}

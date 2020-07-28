@@ -10,6 +10,7 @@ import "./styles/Nav.css";
 function App() {
   return (
     <div className="App">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"></link>
       <div class="nav-container">
         <Nav />
       </div>
@@ -53,8 +54,14 @@ function App() {
         <h1>Want to learn more?</h1>
         <h1>Check out these impressive studies</h1>
       </div>
-      <div class="corporate-sessions" id="corporate">
+      <div class='img-container'>
+
+      </div>
+      {/* <div class="corporate-sessions" id="corporate">
         <h2>Corporate</h2>
+      </div> */}
+      <div class='get-started'>
+        <h1>Get Started</h1>
       </div>
       <div class="private-sessions" id="private">
         <h2>Private</h2>

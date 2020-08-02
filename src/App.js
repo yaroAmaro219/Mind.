@@ -62,9 +62,28 @@ function App() {
       </div> */}
       <div class='get-started'>
         <h1>Get Started</h1>
+        <form class='form'>
+          Name:
+          <input type='text'/>
+          Company:
+          <input class='input' type='text'/>
+          Email:
+          <input class='input' type='text'/>
+          Phone:
+          <input class='input' type='text'/>
+          Address:
+          <input class='input' type='text'/>
+          Message:
+          <input class='input' type='text' />
+          
+          <button type='submit' class='submit' >Submit</button>
+        </form>
       </div>
-      <div class="private-sessions" id="private">
-        <h2>Private</h2>
+      <div class="book" id="private">
+        <h2>Book Your Meditation</h2>
+      </div>
+      <div class="bottom-book" id="private">
+        <h2>Book Your Meditation</h2>
       </div>
     </div>
   );

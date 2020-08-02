@@ -15,13 +15,14 @@
 }
 
 .rect {
-  padding: 20px 0 0 5px;
+  padding: 20px 36px 0 5px;
 }
 
 .nav-link {
   color: white;
   margin: 18px;
   padding: 9px;
+  font-weight: 600;
 }
 
 .nav-link:hover {
@@ -34,6 +35,7 @@
   /* padding-right: 36px; */
   font-family: Arial black;
   text-transform: uppercase;
+  font-size: x-large;
 }
 
 .title-period {
